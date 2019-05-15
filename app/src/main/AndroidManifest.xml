@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.floatingactionbutton">
+    package="com.example.floating">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.floatingactionbutton.AnimacionEscala"
+            android:label="@string/title_activity_animacion_escala"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.floatingactionbutton.bordes"
+            android:label="@string/title_activity_bordes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.floatingactionbutton.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
