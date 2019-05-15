@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.floatingactionbutton.RotarFloating"></activity>
+        <activity android:name="com.example.floatingactionbutton.TransformarFloating"></activity>
+        <activity android:name="com.example.floatingactionbutton.RotarFloating" />
         <activity
             android:name="com.example.floatingactionbutton.AnimacionEscala"
             android:label="@string/title_activity_animacion_escala"
